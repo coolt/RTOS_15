@@ -1,0 +1,10 @@
+.\i2c.o: ..\stellarisware\driverlib\i2c.c
+.\i2c.o: ..\stellarisware\inc/hw_i2c.h
+.\i2c.o: ..\stellarisware\inc/hw_ints.h
+.\i2c.o: ..\stellarisware\inc/hw_memmap.h
+.\i2c.o: ..\stellarisware\inc/hw_sysctl.h
+.\i2c.o: ..\stellarisware\inc/hw_types.h
+.\i2c.o: ..\stellarisware\driverlib/debug.h
+.\i2c.o: ..\stellarisware\driverlib/i2c.h
+.\i2c.o: ..\stellarisware\driverlib/sysctl.h
+.\i2c.o: ..\stellarisware\driverlib/interrupt.h

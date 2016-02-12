@@ -1,0 +1,30 @@
+--cpu Cortex-M3
+".\startup.o"
+".\spi_lm3s37x8.o"
+".\file_config.o"
+".\retarget.o"
+"C:\Keil\ARM\RV31\LIB\FS_CM3.lib"
+".\hal_led.o"
+".\hal_system.o"
+".\cmdline.o"
+".\uartstdio.o"
+".\ustdlib.o"
+".\main.o"
+".\rtx_config.o"
+".\adc.o"
+".\cpu.o"
+".\flash.o"
+".\gpio.o"
+".\i2c.o"
+".\i2s.o"
+".\interrupt.o"
+".\ssi.o"
+".\sysctl.o"
+".\timer.o"
+".\uart.o"
+".\udma.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--strict --scatter ".\HPES_labs.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\HPES_labs.map" -o .\HPES_labs.axf

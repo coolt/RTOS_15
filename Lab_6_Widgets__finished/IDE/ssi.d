@@ -1,0 +1,9 @@
+.\ssi.o: ..\stellarisware\driverlib\ssi.c
+.\ssi.o: ..\stellarisware\inc/hw_ints.h
+.\ssi.o: ..\stellarisware\inc/hw_memmap.h
+.\ssi.o: ..\stellarisware\inc/hw_ssi.h
+.\ssi.o: ..\stellarisware\inc/hw_types.h
+.\ssi.o: ..\stellarisware\driverlib/debug.h
+.\ssi.o: ..\stellarisware\driverlib/interrupt.h
+.\ssi.o: ..\stellarisware\driverlib/ssi.h
+.\ssi.o: ..\stellarisware\driverlib/sysctl.h

@@ -1,0 +1,40 @@
+*** Creating Trace Output File 'HPES_labs.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"spi_lm3s37x8.o"'
+### List of Objects: adding '"hal_led.o"'
+### List of Objects: adding '"hal_system.o"'
+### List of Objects: adding '"cmdline.o"'
+### List of Objects: adding '"uartstdio.o"'
+### List of Objects: adding '"ustdlib.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"rtx_config.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"cpu.o"'
+### List of Objects: adding '"flash.o"'
+### List of Objects: adding '"gpio.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"i2s.o"'
+### List of Objects: adding '"interrupt.o"'
+### List of Objects: adding '"ssi.o"'
+### List of Objects: adding '"sysctl.o"'
+### List of Objects: adding '"timer.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"udma.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup.o" "spi_lm3s37x8.o" "hal_led.o" "hal_system.o" "cmdline.o" "uartstdio.o" "ustdlib.o" "main.o" "rtx_config.o" "adc.o" "cpu.o" "flash.o" "gpio.o" "i2c.o" "i2s.o" "interrupt.o" "ssi.o" "sysctl.o" "timer.o" "uart.o" "udma.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --strict --scatter "HPES_labs.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\HPES_labs.map" -o HPES_labs.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'HPES_labs.axf'
+### ADS-LD Command File: 'HPES_labs.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'HPES_labs.lnp', Handle=0x00000310
+### Writing '.lnp' file
+### ADS-LD Command file 'HPES_labs.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

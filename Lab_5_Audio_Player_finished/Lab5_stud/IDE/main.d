@@ -1,0 +1,16 @@
+.\main.o: ..\app\main.c
+.\main.o: C:\Keil\ARM\RV31\INC\RTL.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\main.o: ..\stellarisware\inc/hw_types.h
+.\main.o: ..\app\main.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\main.o: ..\hal\hal_led.h
+.\main.o: ..\hal\hal_system.h
+.\main.o: ..\hal\uartstdio.h
+.\main.o: ..\hal\ustdlib.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\main.o: ..\hal\cmdline.h
+.\main.o: ..\hal\sound.h
+.\main.o: ..\stellarisware\inc/hw_ints.h
+.\main.o: ..\stellarisware\driverlib/interrupt.h
+.\main.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h

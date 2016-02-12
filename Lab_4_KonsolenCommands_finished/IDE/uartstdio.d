@@ -1,0 +1,13 @@
+.\uartstdio.o: ..\hal\uartstdio.c
+.\uartstdio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\uartstdio.o: ..\stellarisware\inc/hw_ints.h
+.\uartstdio.o: ..\stellarisware\inc/hw_memmap.h
+.\uartstdio.o: ..\stellarisware\inc/hw_types.h
+.\uartstdio.o: ..\stellarisware\inc/hw_uart.h
+.\uartstdio.o: ..\stellarisware\driverlib/debug.h
+.\uartstdio.o: ..\stellarisware\driverlib/interrupt.h
+.\uartstdio.o: ..\stellarisware\driverlib/rom.h
+.\uartstdio.o: ..\stellarisware\driverlib/rom_map.h
+.\uartstdio.o: ..\stellarisware\driverlib/sysctl.h
+.\uartstdio.o: ..\stellarisware\driverlib/uart.h
+.\uartstdio.o: ..\hal\uartstdio.h

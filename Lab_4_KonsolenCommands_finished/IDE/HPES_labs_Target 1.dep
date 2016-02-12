@@ -1,0 +1,2 @@
+Dependencies for Project 'HPES_labs', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F589834)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Luminary --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")

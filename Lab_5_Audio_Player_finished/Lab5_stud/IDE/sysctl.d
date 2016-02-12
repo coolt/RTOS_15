@@ -1,0 +1,9 @@
+.\sysctl.o: ..\stellarisware\driverlib\sysctl.c
+.\sysctl.o: ..\stellarisware\inc/hw_ints.h
+.\sysctl.o: ..\stellarisware\inc/hw_nvic.h
+.\sysctl.o: ..\stellarisware\inc/hw_sysctl.h
+.\sysctl.o: ..\stellarisware\inc/hw_types.h
+.\sysctl.o: ..\stellarisware\driverlib/cpu.h
+.\sysctl.o: ..\stellarisware\driverlib/debug.h
+.\sysctl.o: ..\stellarisware\driverlib/interrupt.h
+.\sysctl.o: ..\stellarisware\driverlib/sysctl.h

@@ -1,0 +1,201 @@
+Dependencies for Project 'HPES_labs', Target 'HPES_Lab': (DO NOT MODIFY !)
+F (.\Startup.s)(0x55250ACB)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (..\hal\SPI_LM3S37x8.c)(0x51542758)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\spi_lm3s37x8.o --omf_browse .\spi_lm3s37x8.crf --depend .\spi_lm3s37x8.d)
+I (C:\Keil\ARM\RV31\INC\File_Config.h)(0x4CB2D82C)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x552E5C93)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\LM3S_hans.H)(0x515427EA)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_adc.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_flash.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_gpio.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_i2c.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_nvic.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ssi.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_timer.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_uart.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\adc.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\cpu.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\flash.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\gpio.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\pin_map.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\i2c.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\ssi.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\timer.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\uart.h)(0x50AB5F0A)
+F (.\File_Config.c)(0x554DF101)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\file_config.o --omf_browse .\file_config.crf --depend .\file_config.d)
+I (C:\Keil\ARM\RV31\INC\File_Config.h)(0x4CB2D82C)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x552E5C93)
+I (C:\Keil\ARM\RV31\INC\File_lib.c)(0x4CB2D82C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\absacc.h)(0x51C80BA4)
+F (.\Retarget.c)(0x55250166)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\rt_sys.h)(0x51C80BA4)
+I (C:\Keil\ARM\RV31\INC\File_Config.h)(0x4CB2D82C)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x552E5C93)
+F (C:\Keil\ARM\RV31\LIB\FS_CM3.lib)(0x4D133622)()
+F (..\hal\hal_led.c)(0x511512F2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\hal_led.o --omf_browse .\hal_led.crf --depend .\hal_led.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\gpio.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\pin_map.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+F (..\hal\hal_system.c)(0x51542D34)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\hal_system.o --omf_browse .\hal_system.crf --depend .\hal_system.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\hal_system.h)(0x50AB5F0A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\gpio.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\pin_map.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\uartstdio.h)(0x50A6654C)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\uart.h)(0x50AB5F0A)
+F (..\hal\cmdline.c)(0x5150B790)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\cmdline.o --omf_browse .\cmdline.crf --depend .\cmdline.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\cmdline.h)(0x50A6654C)
+F (..\hal\cmdline.h)(0x50A6654C)()
+F (..\hal\hal_led.h)(0x50AB5F0A)()
+F (..\hal\hal_system.h)(0x50AB5F0A)()
+F (..\hal\uartstdio.h)(0x50A6654C)()
+F (..\hal\ustdlib.h)(0x50A6654C)()
+F (..\hal\uartstdio.c)(0x514E1884)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_uart.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\rom.h)(0x50A66544)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\rom_map.h)(0x50A66544)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\uart.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\uartstdio.h)(0x50A6654C)
+F (..\hal\ustdlib.c)(0x514DE9E8)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\ustdlib.o --omf_browse .\ustdlib.crf --depend .\ustdlib.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\ustdlib.h)(0x50A6654C)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C80BA4)
+F (..\app\main.c)(0x554E2D4D)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x552E5C93)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\app\main.h)(0x5159E62A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\hal_led.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\hal_system.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\uartstdio.h)(0x50A6654C)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\ustdlib.h)(0x50A6654C)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C80BA4)
+I (U:\Lab_4_KonsolenCommands_auf_SD\hal\cmdline.h)(0x50A6654C)
+F (..\app\RTX_Config.c)(0x51114486)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\rtx_config.o --omf_browse .\rtx_config.crf --depend .\rtx_config.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x552E5C93)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x4CB2D82C)
+F (..\app\main.h)(0x5159E62A)()
+F (..\stellarisware\driverlib\adc.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_adc.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\adc.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\cpu.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\cpu.o --omf_browse .\cpu.crf --depend .\cpu.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\cpu.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\flash.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\flash.o --omf_browse .\flash.crf --depend .\flash.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_flash.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\flash.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\gpio.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_gpio.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\gpio.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\pin_map.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\i2c.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_i2c.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\i2c.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\i2s.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\i2s.o --omf_browse .\i2s.crf --depend .\i2s.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_i2s.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\i2s.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\interrupt.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\interrupt.o --omf_browse .\interrupt.crf --depend .\interrupt.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_nvic.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\cpu.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\ssi.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\ssi.o --omf_browse .\ssi.crf --depend .\ssi.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ssi.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\ssi.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\sysctl.c)(0x510BD02C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\sysctl.o --omf_browse .\sysctl.crf --depend .\sysctl.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_nvic.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\cpu.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\timer.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_timer.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\timer.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\uart.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_ints.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_memmap.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_uart.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\uart.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\sysctl.h)(0x50AB5F0A)
+F (..\stellarisware\driverlib\udma.c)(0x50AB5F0A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\app -I..\stellarisware -I..\hal-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM3S9B96 -DTARGET_IS_TEMPEST_RB1 -DUART_BUFFERED -o .\udma.o --omf_browse .\udma.crf --depend .\udma.d)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_sysctl.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_types.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\inc\hw_udma.h)(0x50F92B68)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\debug.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\interrupt.h)(0x50AB5F0A)
+I (U:\Lab_4_KonsolenCommands_auf_SD\stellarisware\driverlib\udma.h)(0x50AB5F0A)

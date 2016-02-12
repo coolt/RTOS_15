@@ -1,0 +1,10 @@
+.\uart.o: ..\stellarisware\driverlib\uart.c
+.\uart.o: ..\stellarisware\inc/hw_ints.h
+.\uart.o: ..\stellarisware\inc/hw_memmap.h
+.\uart.o: ..\stellarisware\inc/hw_sysctl.h
+.\uart.o: ..\stellarisware\inc/hw_types.h
+.\uart.o: ..\stellarisware\inc/hw_uart.h
+.\uart.o: ..\stellarisware\driverlib/debug.h
+.\uart.o: ..\stellarisware\driverlib/interrupt.h
+.\uart.o: ..\stellarisware\driverlib/uart.h
+.\uart.o: ..\stellarisware\driverlib/sysctl.h

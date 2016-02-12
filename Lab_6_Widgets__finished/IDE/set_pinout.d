@@ -1,0 +1,15 @@
+.\set_pinout.o: ..\hal\set_pinout.c
+.\set_pinout.o: ..\hal\set_pinout.h
+.\set_pinout.o: ..\stellarisware\inc/hw_types.h
+.\set_pinout.o: ..\stellarisware\driverlib/sysctl.h
+.\set_pinout.o: ..\stellarisware\driverlib/gpio.h
+.\set_pinout.o: ..\stellarisware\driverlib/pin_map.h
+.\set_pinout.o: ..\stellarisware\driverlib/interrupt.h
+.\set_pinout.o: ..\stellarisware\inc/hw_memmap.h
+.\set_pinout.o: ..\hal\uartstdio.h
+.\set_pinout.o: ..\stellarisware\driverlib/uart.h
+.\set_pinout.o: ..\stellarisware\driverlib/udma.h
+.\set_pinout.o: ..\stellarisware\inc/hw_gpio.h
+.\set_pinout.o: ..\stellarisware\driverlib/epi.h
+.\set_pinout.o: ..\stellarisware\driverlib/debug.h
+.\set_pinout.o: ..\stellarisware\driverlib/rom.h
